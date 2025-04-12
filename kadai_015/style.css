@@ -1,5 +1,6 @@
 body {
-  font-family: ;"Arial", "Meiryo", sans-serif;
+  font-family: "Arial", "Meiryo", sans-serif;
+}
 .decoration{
   font-size: 20px;
 
@@ -35,7 +36,7 @@ body {
 .google-fonts {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -53,10 +54,13 @@ h1 {
     letter-spacing: calc(20px * 1.2);
     text-shadow: 1px 1px 2px green;
     border-bottom: 3px solid rgb(115, 115,114);
-    text-align: center;
+    
 }
 
 #basic p {
     font-weight: bold;
+}
+body {
+    text-align: center;
 }
 
